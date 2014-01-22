@@ -1,0 +1,16 @@
+name: BetterList
+main: me.cgfx360.betterlist.BetterList
+version: 1.0
+description: >
+             A better player list
+commands:
+  list:
+    description: Show's the player List.
+    permission: betterlist.list
+    permission-message: §cYou don't have permission
+permissions:
+  betterlist.staff:
+    default: op
+  betterlist.list:
+    default: true
+    

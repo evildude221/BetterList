@@ -44,7 +44,7 @@ public class BetterList extends JavaPlugin{
 	        StringBuilder staff = new StringBuilder();
 	        StringBuilder online = new StringBuilder();
 	        for (Player player : Bukkit.getOnlinePlayers()){
-	            if (player.hasPermission("GoodList.Staff")) {
+	            if (player.hasPermission("BetterList.Staff")) {
 	                staff.append(staff.length() != 0 ? ", " : "").append(player.getName());
 	            } else {
 	                
