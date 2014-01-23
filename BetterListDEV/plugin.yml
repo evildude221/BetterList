@@ -1,6 +1,6 @@
 name: BetterList
 main: me.cgfx360.betterlist.BetterList
-version: 1.0
+version: 1.1
 description: >
              A better player list
 commands:
@@ -12,5 +12,7 @@ permissions:
   betterlist.staff:
     default: op
   betterlist.list:
+    default: true
+  betterlist.player:
     default: true
     
